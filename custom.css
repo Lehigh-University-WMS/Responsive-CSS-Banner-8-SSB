@@ -1,0 +1,336 @@
+/* file: custom.css
+ * last update: 10-16-14
+ * purpose: custom styles to override base styles of existing Banner SSB theme
+ */
+ 
+@import url(https://fonts.googleapis.com/css?family=Ropa+Sans:400);
+
+body,
+body.campuspipeline,
+table td.pldefault,
+table td.dddefault,
+table td.dedefault,
+table td.delabel,
+table td.ddlabel,
+table td.deheader,
+table th.ddheader,
+.infotext,
+.captiontext {
+  font-family:helvetica, arial, sans-serif;
+}
+
+a,
+a:link,
+a:visited,
+a.submenulinktext1,
+a.submenulinktext1:visited,
+a.submenulinktext2,
+a.submenulinktext2:visited {
+  color:#497ba4;
+}
+a:hover,
+a:active,
+a:focus,
+a.submenulinktext1:hover,
+a.submenulinktext1:active,
+a.submenulinktext1:focus,
+a.submenulinktext2:hover,
+a.submenulinktext2:active,
+a.submenulinktext2:focus {
+  color:#497ba4;
+}
+span.fieldOrangetextbold
+{
+font-weight: bold;
+font-size: 1.1em;
+color:#502d0e;  
+}
+
+span.warningtext
+{
+color:#990000;
+}
+
+/* PAGE HEADER OVERRIDES */
+body {
+  background-image:none;
+}
+div.pageheaderdiv1 {
+  background:url('/wtlgifs/lehigh_official_horiz_logo_pms.png') no-repeat top left;
+  background-size:380px;
+  margin-left:10px;
+  display:block;
+  height:50px;
+}
+  /* just for HMRT */
+  div.pageheaderdiv1 h1 {
+    padding-top:50px;
+    display:none;
+  }
+
+
+td.tabon,
+td.taboff {
+  background-image:none;
+  font-weight:normal;
+  font-size:13px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  color:#ffffff;
+  padding:5px 8px 0;
+}
+td.tabon {
+  background-color:#502d0e;
+  border:1px solid #502d0e;
+}
+td.taboff {
+  background-color:#958472;
+  border:1px solid #7d6a55;
+}
+td.taboff:hover {
+  background-color:#b2a69a;
+  color:#ffffff !important;
+}
+  td.taboff a,
+  td.taboff a:visited {
+    color:#e7e2d8 !important;
+  }
+  td.taboff a:hover,
+  td.taboff a:active {
+    color:#ffffff !important;
+  }
+
+td.bgtabon,
+td.bgtaboff {
+  background-color:#ffffff;
+  border-bottom:1px solid #502d0e;
+
+}
+  td.bgtabon img,
+  td.bgtaboff img {
+    display:none;
+  }
+  
+/* search block */
+ .headerlinksdiv2 {
+  background-color:#e7e2d8;
+  padding:5px;
+}
+
+hr
+{
+  color: #958472;
+}
+
+
+/* page title */
+.pagetitlediv td h2 {
+  font-family:"Ropa Sans", helvetica, arial, sans-serif;
+  font-size:1.8em;
+  text-transform:uppercase;
+  color:#502d0e;
+  margin:0;
+}
+.pagetitlediv td.bg3 {
+  background-color:#ffffff;
+}
+  .pagetitlediv td.bg3 img {
+    display:none;
+  }
+
+
+/* body or main content tables */
+td.mpdefault {
+  font-size:1.25em !important;
+}
+  td.mpdefault span.menulinkdesctext {
+    font-size:.6em;
+    line-height:1.6em;
+  }
+
+/* prospect page */
+td.indefault img.headerImg {
+  display:none;
+}
+.requiredmsgtext,
+.fieldrequiredtext {
+  color:#cc0000;
+  font-weight:bold;
+  padding:0 4px;
+}
+.requiredmsgtext {
+  display:block;
+  margin-bottom:10px;
+}
+table.infotexttable {
+  font-size:1.1em;
+}
+table.dataentrytable {
+  background:#e6e6e6;
+  padding:8px;
+  margin-bottom:15px;
+}
+
+.captiontext {
+  font-style:normal;
+  font-weight:normal;
+  font-family:"Ropa Sans", helvetica, arial, sans-serif;
+  font-size:1.45em;
+  color:#502d0e;
+}
+table td.delabel,
+table th.delabel,
+table td.ddlabel,
+table th.ddlabel,
+table td.ddtitle,
+table td.detitle,
+table th.ddtitle,
+table th.detitle,
+table td.deheader,
+table td.dddefault
+ {
+  background-color:#f0f0f0;
+  vertical-align:middle;
+  font-size:.75em;
+  padding: 2px 8px 2px 0px;
+}
+
+table th.ddheader {
+  vertical-align:middle;
+  font-size:.75em;
+  padding: 2px 8px 2px 0px;
+}
+table td.dedefault,
+table td.dddefault {
+  vertical-align:middle;
+}
+table td.dddefault {
+  border-bottom:1px solid #e6e6e6;
+}
+
+
+table th.ddheader,
+table th.detitle,
+table th.ddtitle,
+table th.delabel,
+table td.ddlabel,
+table th.ddlabel
+{
+  background-color:#e2e2e2; 
+}
+
+table.datadisplaytable {
+border-spacing: 0px 0px;
+margin-bottom:15px;
+background-color:#e2e2e2;
+padding:6px;
+margin: 0px;
+}
+
+table.datadisplaytable td, .datadisplaytable td p
+{
+    vertical-align:middle;
+    margin:2px 8px 2px 0px;
+    padding: 3px;
+}
+
+/* general form element styles */
+input,
+textarea,
+select {
+  font-weight:normal;
+  font-size:1.2em;
+}
+input[type='text'],
+input[type='password'] {
+  padding:5px 4px;
+  margin:0 5px 0 0;
+  outline:none;
+  border-radius:4px;
+  border:1px solid #d0d0d0;
+}
+input[type='checkbox'],
+input[type='radio'] {
+  margin:6px 4px;
+  position:relative;
+  top:2px;
+}
+textarea {
+  width:98%;
+  padding:5px;
+  margin:0 5px 0 0;
+  border:1px solid #d0d0d0;
+}
+select {
+  padding:4px 0;
+  margin:0 3px 0 0;
+  min-width:80px;
+  border-radius:4px;
+  border:1px solid #d0d0d0;
+}
+input[type='submit'],
+input[type='reset'],
+input.button,
+button {
+  background-color:#502d0e;
+  padding:6px 25px;
+  border-radius:6px;
+  font-weight:normal;
+  font-size:1em;
+  color:#ffffff;
+  text-shadow:1px 1px 2px #333333;
+  cursor:pointer;
+  letter-spacing:1px;
+  margin:0 auto;
+  border:1px solid #341c07;
+  position:relative;
+  top:-1px;
+}
+input[type='submit']:hover,
+input[type='reset']:hover,
+input.button:hover,
+button:hover,
+input[type='submit']:active,
+input[type='reset']:active,
+input.button:active,
+button:active {
+  background-color:#b2a69a;
+  text-decoration:underline;
+  border:1px solid #958472;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .headerlinksdiv td,
+  .headerlinksdiv td {
+    display:block !important;
+    width:100%;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom:1px solid #7d6a55;
+  }
+  .headerlinksdiv td.bgtabon,
+  .headerlinksdiv td.bgtaboff,
+  .plaintable td.bgtabon,
+  .plaintable td.bgtaboff {
+    display:none !important;
+  }
+  .headerlinksdiv table table,
+  .plaintable table {
+    width:99%;
+  }
+  table.dataentrytable td
+ {
+    display:block !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+div.pageheaderdiv1 {
+  background:url('/wtlgifs/lehigh_official_horiz_logo_pms.png') no-repeat top left;
+  background-size:300px;
+  margin-left:10px;
+  display:block;
+  height:50px;
+}
+}
